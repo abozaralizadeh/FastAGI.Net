@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "AsterNET.NetStandard/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AsterNET.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsterNET.NetStandard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AsterNET.NetStandard/2.2.1": {
+      "sha512": "B/Q8pPAaMxOYmxR/thwL2TQh4DzDDJ2Cq4j783530KGAHlzJNG8eejx95Dwgujzurr3mxyJpZmReRWEvJ+zqQg==",
+      "type": "package",
+      "path": "asternet.netstandard/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "asternet.netstandard.2.2.1.nupkg.sha512",
+        "asternet.netstandard.nuspec",
+        "lib/netstandard2.0/AsterNET.NetStandard.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AsterNET.NetStandard >= 2.2.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/abozar/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/abozar/Projects/FastAgi/FastAgi/FastAgi.csproj",
+      "projectName": "FastAgi",
+      "projectPath": "/Users/abozar/Projects/FastAgi/FastAgi/FastAgi.csproj",
+      "packagesPath": "/Users/abozar/.nuget/packages/",
+      "outputPath": "/Users/abozar/Projects/FastAgi/FastAgi/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/abozar/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://ma-tobi.pkgs.visualstudio.com/_packaging/VF.TOBi/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "AsterNET.NetStandard": {
+            "target": "Package",
+            "version": "[2.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
